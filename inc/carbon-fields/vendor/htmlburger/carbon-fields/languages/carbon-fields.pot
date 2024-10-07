@@ -1,0 +1,891 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Carbon Fields\n"
+"POT-Creation-Date: 2023-10-05 21:56+0300\n"
+"PO-Revision-Date: 2016-01-11 12:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: carbon-fields/vendor/htmlburger/carbon-fields\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: carbon-fields/vendor/htmlburger/carbon-"
+"fields/assets\n"
+"X-Poedit-SearchPathExcluded-1: carbon-fields/vendor/htmlburger/carbon-"
+"fields/languages\n"
+"X-Poedit-SearchPathExcluded-2: carbon-fields/vendor/htmlburger/carbon-"
+"fields/node_modules\n"
+"X-Poedit-SearchPathExcluded-3: carbon-fields/vendor/htmlburger/carbon-"
+"fields/tests\n"
+"X-Poedit-SearchPathExcluded-4: carbon-fields/vendor/htmlburger/carbon-"
+"fields/tmp\n"
+"X-Poedit-SearchPathExcluded-5: carbon-fields/vendor/htmlburger/carbon-"
+"fields/vendor\n"
+"X-Poedit-SearchPathExcluded-6: carbon-fields/vendor/htmlburger/carbon-"
+"fields/packages\n"
+"X-Poedit-SearchPathExcluded-7: carbon-fields/vendor/htmlburger/carbon-"
+"fields/build\n"
+"X-Poedit-SearchPathExcluded-8: carbon-fields/vendor/htmlburger/carbon-"
+"fields/bin\n"
+
+#: carbon-fields/core/Libraries/Plugin_Update_Warning/Plugin_Update_Warning.php:69
+#, php-format
+msgid ""
+"The new version of Carbon Fields is a major update. Please make sure you "
+"have a full backup before updating and test any add-ons or custom "
+"functionality.\n"
+"Developers should review the upgrade guide on %1$s."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:287
+msgid "The parent must be 'array', 'string' or 'null'."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:316
+msgid "The position of inner blocks must be 'above' or 'below'."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:334
+msgid "The template must be an 'array' or 'null'."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:352
+msgid "The template lock must be 'all', 'insert', 'false' or 'null'."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:370
+msgid "The allowed blocks must be an 'array' or 'null'."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:472
+msgid "'render_callback' is required for the blocks."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:476
+msgid "'render_callback' must be a callable."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Container.php:741
+msgid "General"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
+msgid "Settings saved."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
+msgid "No form"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Field/Sidebar_Field.php:74
+msgctxt "sidebar"
+msgid "Add New"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
+msgid "Please enter a name for the sidebar."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
+msgid "Unknown action attempted."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
+msgid "Sidebar with the same ID is already registered."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
+msgid ""
+"Failed to update option storing your custom sidebars. Please contact "
+"support."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
+msgid "Sidebar not found."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
+msgid "Add Sidebar"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
+msgid "Please enter the name of the new sidebar:"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:414
+msgid "No option names provided"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:425
+msgid "Theme Options updated."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:447
+msgid "Sorry, you are not allowed to read blocks of this post."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:457
+msgid "Sorry, you are not allowed to read blocks as this user."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:478
+msgid "The requested type: ID or URL."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:483
+msgid "The ID / URL of the attachment"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:500
+msgid "The name of the block."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:505
+msgid "The content of the block."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:509
+msgid "ID of the post context."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:540
+msgid "Invalid block."
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
+msgid "Actions"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:52
+msgid "Save Changes"
+msgstr ""
+
+#: carbon-fields/vendor/htmlburger/carbon-fields/templates/Container/widget.php:4
+msgid "No options are available for this widget."
+msgstr ""
+
+#: custom-fields/post-meta.php:5
+msgid "Post Options"
+msgstr ""
+
+#: custom-fields/post-meta.php:13
+msgid "First Show"
+msgstr ""
+
+#: custom-fields/post-meta.php:26
+msgid "Testimonial"
+msgstr ""
+
+#: custom-fields/post-meta.php:32 custom-fields/theme-options.php:28
+#: custom-fields/theme-options.php:187 custom-fields/theme-options.php:189
+#: register.php:99 register.php:110
+msgid "Doctors"
+msgstr ""
+
+#: custom-fields/post-meta.php:45 custom-fields/theme-options.php:63
+msgid "Telegram"
+msgstr ""
+
+#: custom-fields/post-meta.php:46 custom-fields/theme-options.php:64
+msgid "Facebook"
+msgstr ""
+
+#: custom-fields/post-meta.php:47 custom-fields/theme-options.php:65
+msgid "Twitter"
+msgstr ""
+
+#: custom-fields/post-meta.php:48 custom-fields/theme-options.php:66
+msgid "Instagram"
+msgstr ""
+
+#: custom-fields/post-meta.php:49 custom-fields/theme-options.php:67
+msgid "Linkedin"
+msgstr ""
+
+#: custom-fields/post-meta.php:50 custom-fields/theme-options.php:68
+msgid "Skype"
+msgstr ""
+
+#: custom-fields/post-meta.php:51 custom-fields/theme-options.php:69
+msgid "Youtube"
+msgstr ""
+
+#: custom-fields/post-meta.php:52 custom-fields/theme-options.php:70
+msgid "Behance"
+msgstr ""
+
+#: custom-fields/post-meta.php:53 custom-fields/theme-options.php:71
+msgid "Vkontakte"
+msgstr ""
+
+#: custom-fields/post-meta.php:54 custom-fields/theme-options.php:72
+msgid "TikTok"
+msgstr ""
+
+#: custom-fields/post-meta.php:55 custom-fields/theme-options.php:73
+msgid "GitHub"
+msgstr ""
+
+#: custom-fields/theme-options.php:7
+msgid "Theme Options"
+msgstr ""
+
+#: custom-fields/theme-options.php:9
+msgid "Global Setting"
+msgstr ""
+
+#: custom-fields/theme-options.php:10
+msgid "Theme Color"
+msgstr ""
+
+#: custom-fields/theme-options.php:12
+msgid "Color Hover"
+msgstr ""
+
+#: custom-fields/theme-options.php:14
+msgid "Text Color"
+msgstr ""
+
+#: custom-fields/theme-options.php:16
+msgid "Which blocks to display on the page"
+msgstr ""
+
+#: custom-fields/theme-options.php:18 custom-fields/theme-options.php:80
+msgid "Top Slider"
+msgstr ""
+
+#: custom-fields/theme-options.php:19
+msgid "Featured Services"
+msgstr ""
+
+#: custom-fields/theme-options.php:20 custom-fields/theme-options.php:100
+msgid "Cta Section"
+msgstr ""
+
+#: custom-fields/theme-options.php:21 custom-fields/theme-options.php:108
+#: custom-fields/theme-options.php:110
+msgid "About Us"
+msgstr ""
+
+#: custom-fields/theme-options.php:22 custom-fields/theme-options.php:119
+msgid "Count"
+msgstr ""
+
+#: custom-fields/theme-options.php:23 custom-fields/theme-options.php:136
+msgid "Features"
+msgstr ""
+
+#: custom-fields/theme-options.php:24 custom-fields/theme-options.php:153
+#: custom-fields/theme-options.php:155 register.php:9 register.php:20
+msgid "Services"
+msgstr ""
+
+#: custom-fields/theme-options.php:25 custom-fields/theme-options.php:160
+msgid "Appointment"
+msgstr ""
+
+#: custom-fields/theme-options.php:26 custom-fields/theme-options.php:173
+#: custom-fields/theme-options.php:175
+msgid "Departments"
+msgstr ""
+
+#: custom-fields/theme-options.php:27 custom-fields/theme-options.php:180
+#: register.php:69 register.php:70 register.php:80
+msgid "Testimonials"
+msgstr ""
+
+#: custom-fields/theme-options.php:29 custom-fields/theme-options.php:194
+#: custom-fields/theme-options.php:196
+msgid "Gallery"
+msgstr ""
+
+#: custom-fields/theme-options.php:30 custom-fields/theme-options.php:207
+#: custom-fields/theme-options.php:209
+msgid "Pricing"
+msgstr ""
+
+#: custom-fields/theme-options.php:31
+msgid "Faq"
+msgstr ""
+
+#: custom-fields/theme-options.php:32 custom-fields/theme-options.php:275
+msgid "Contact"
+msgstr ""
+
+#: custom-fields/theme-options.php:37
+msgid "Address"
+msgstr ""
+
+#: custom-fields/theme-options.php:39
+msgid "Phones"
+msgstr ""
+
+#: custom-fields/theme-options.php:41
+msgid "Phone"
+msgstr ""
+
+#: custom-fields/theme-options.php:43
+msgid "Inpun format number phone"
+msgstr ""
+
+#: custom-fields/theme-options.php:44
+msgid "Phone no space"
+msgstr ""
+
+#: custom-fields/theme-options.php:46
+msgid "Inpun number phone no space \"+0000000000\""
+msgstr ""
+
+#: custom-fields/theme-options.php:51
+msgid "Emails"
+msgstr ""
+
+#: custom-fields/theme-options.php:53
+msgid "Email"
+msgstr ""
+
+#: custom-fields/theme-options.php:58
+msgid "Social Media"
+msgstr ""
+
+#: custom-fields/theme-options.php:59
+msgid "Social Items"
+msgstr ""
+
+#: custom-fields/theme-options.php:61
+msgid "Social Icon"
+msgstr ""
+
+#: custom-fields/theme-options.php:76
+msgid "Social Link"
+msgstr ""
+
+#: custom-fields/theme-options.php:81
+msgid "Button Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:82
+msgid "Read More"
+msgstr ""
+
+#: custom-fields/theme-options.php:84
+msgid "Button Style"
+msgstr ""
+
+#: custom-fields/theme-options.php:86
+msgid "Slider"
+msgstr ""
+
+#: custom-fields/theme-options.php:88
+msgid "Image"
+msgstr ""
+
+#: custom-fields/theme-options.php:91
+msgid "Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:93
+msgid "Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:97
+msgid "Add items for slider."
+msgstr ""
+
+#: custom-fields/theme-options.php:101
+msgid "Cta Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:103
+msgid "Cta Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:105
+msgid "Cta Button Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:109
+msgid "About Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:112
+msgid "About Subtitle"
+msgstr ""
+
+#: custom-fields/theme-options.php:114
+msgid "About Image"
+msgstr ""
+
+#: custom-fields/theme-options.php:117
+msgid "About Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:120
+msgid "Counts"
+msgstr ""
+
+#: custom-fields/theme-options.php:122
+msgid "Count Icon"
+msgstr ""
+
+#: custom-fields/theme-options.php:123
+msgid "Font Awesome icons class"
+msgstr ""
+
+#: custom-fields/theme-options.php:125
+msgid "Count Number"
+msgstr ""
+
+#: custom-fields/theme-options.php:127
+msgid "Count Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:129
+msgid "Link Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:131
+msgid "Btn Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:137
+msgid "Features Image"
+msgstr ""
+
+#: custom-fields/theme-options.php:140
+msgid "Features Items"
+msgstr ""
+
+#: custom-fields/theme-options.php:143
+msgid "Features Icon"
+msgstr ""
+
+#: custom-fields/theme-options.php:147
+msgid "Features Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:149
+msgid "Features Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:154
+msgid "Services Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:157
+msgid "Services Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:161
+msgid "Appointment Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:162 custom-fields/theme-options.php:170
+msgid "Make an Appointment"
+msgstr ""
+
+#: custom-fields/theme-options.php:164
+msgid "Appointment Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:166
+msgid "Appointment Form"
+msgstr ""
+
+#: custom-fields/theme-options.php:168
+msgid "Add form shordcode"
+msgstr ""
+
+#: custom-fields/theme-options.php:169
+msgid "Appointment Button Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:174
+msgid "Departments Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:177
+msgid "Departments Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:181
+msgid "Testimonials Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:182
+msgid "testimonials"
+msgstr ""
+
+#: custom-fields/theme-options.php:184
+msgid "Testimonials Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:188
+msgid "Doctors Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:191
+msgid "Doctors Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:195
+msgid "Gallery Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:198
+msgid "Gallery Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:200
+msgid "Gallery Items"
+msgstr ""
+
+#: custom-fields/theme-options.php:203
+msgid "Gallery Image"
+msgstr ""
+
+#: custom-fields/theme-options.php:208
+msgid "Pricing Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:211
+msgid "Pricing Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:213
+msgid "Сurrency"
+msgstr ""
+
+#: custom-fields/theme-options.php:223
+msgid "Regularly"
+msgstr ""
+
+#: custom-fields/theme-options.php:225
+msgid "Price Item"
+msgstr ""
+
+#: custom-fields/theme-options.php:227
+msgid "Price Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:229
+msgid "Price Count"
+msgstr ""
+
+#: custom-fields/theme-options.php:232
+msgid "Price Time"
+msgstr ""
+
+#: custom-fields/theme-options.php:235
+msgid "month"
+msgstr ""
+
+#: custom-fields/theme-options.php:238
+msgid "week"
+msgstr ""
+
+#: custom-fields/theme-options.php:239
+msgid "year"
+msgstr ""
+
+#: custom-fields/theme-options.php:241
+msgid "Featured"
+msgstr ""
+
+#: custom-fields/theme-options.php:243
+msgid "checked to featured"
+msgstr ""
+
+#: custom-fields/theme-options.php:244
+msgid "Advansed"
+msgstr ""
+
+#: custom-fields/theme-options.php:246
+msgid "checked to advancedm"
+msgstr ""
+
+#: custom-fields/theme-options.php:247
+msgid "Price Offers"
+msgstr ""
+
+#: custom-fields/theme-options.php:249
+msgid "Price Offer"
+msgstr ""
+
+#: custom-fields/theme-options.php:251
+msgid "Price Check"
+msgstr ""
+
+#: custom-fields/theme-options.php:253
+msgid "checked if active"
+msgstr ""
+
+#: custom-fields/theme-options.php:257
+msgid "FAQ"
+msgstr ""
+
+#: custom-fields/theme-options.php:258
+msgid "FAQ Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:259
+msgid "Frequently asked questions"
+msgstr ""
+
+#: custom-fields/theme-options.php:261
+msgid "FAQ Text"
+msgstr ""
+
+#: custom-fields/theme-options.php:263
+msgid "FAQ Items"
+msgstr ""
+
+#: custom-fields/theme-options.php:266
+msgid "FAQ Question"
+msgstr ""
+
+#: custom-fields/theme-options.php:268
+msgid "FAQ Answer"
+msgstr ""
+
+#: custom-fields/theme-options.php:273
+msgid "Contacts"
+msgstr ""
+
+#: custom-fields/theme-options.php:274
+msgid "Contact Title"
+msgstr ""
+
+#: custom-fields/theme-options.php:277
+msgid "Contact Text"
+msgstr ""
+
+#: register.php:10
+msgid "Service"
+msgstr ""
+
+#: register.php:11
+msgid "Add Service"
+msgstr ""
+
+#: register.php:12
+msgid "Added Service"
+msgstr ""
+
+#: register.php:13
+msgid "Edit Service"
+msgstr ""
+
+#: register.php:14
+msgid "New Service"
+msgstr ""
+
+#: register.php:15
+msgid "View Service"
+msgstr ""
+
+#: register.php:16
+msgid "Search Service"
+msgstr ""
+
+#: register.php:17
+msgid "No Service"
+msgstr ""
+
+#: register.php:18
+msgid "No Service in Cart"
+msgstr ""
+
+#: register.php:39 register.php:50
+msgid "Departaments"
+msgstr ""
+
+#: register.php:40
+msgid "Departament"
+msgstr ""
+
+#: register.php:41
+msgid "Add Departament"
+msgstr ""
+
+#: register.php:42
+msgid "Added Departament"
+msgstr ""
+
+#: register.php:43
+msgid "Edit Departament"
+msgstr ""
+
+#: register.php:44
+msgid "New Departament"
+msgstr ""
+
+#: register.php:45
+msgid "View Departament"
+msgstr ""
+
+#: register.php:46
+msgid "Search Departament"
+msgstr ""
+
+#: register.php:47
+msgid "No Departament"
+msgstr ""
+
+#: register.php:48
+msgid "No Departaments in Cart"
+msgstr ""
+
+#: register.php:71
+msgid "Add Testimonial"
+msgstr ""
+
+#: register.php:72
+msgid "Added Testimonial"
+msgstr ""
+
+#: register.php:73
+msgid "Edit Testimonial"
+msgstr ""
+
+#: register.php:74
+msgid "New Testimonial"
+msgstr ""
+
+#: register.php:75
+msgid "View Testimonial"
+msgstr ""
+
+#: register.php:76
+msgid "Search Testimonial"
+msgstr ""
+
+#: register.php:77
+msgid "No Testimonial"
+msgstr ""
+
+#: register.php:78
+msgid "No Testimonial in Cart"
+msgstr ""
+
+#: register.php:100
+msgid "Doctor"
+msgstr ""
+
+#: register.php:101
+msgid "Add Doctor"
+msgstr ""
+
+#: register.php:102
+msgid "Added Doctor"
+msgstr ""
+
+#: register.php:103
+msgid "Edit Doctor"
+msgstr ""
+
+#: register.php:104
+msgid "New Doctor"
+msgstr ""
+
+#: register.php:105
+msgid "View Doctor"
+msgstr ""
+
+#: register.php:106
+msgid "Search Doctor"
+msgstr ""
+
+#: register.php:107
+msgid "No Doctor"
+msgstr ""
+
+#: register.php:108
+msgid "No Doctor in Cart"
+msgstr ""
+
+#: template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: template-tags.php:100
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: theme-setup/medico-theme-init.php:10
+msgid "Primary"
+msgstr ""
+
+#: theme-setup/medico-theme-init.php:11
+msgid "Footer Links"
+msgstr ""
+
+#: theme-setup/medico-theme-init.php:12
+msgid "Footer Services"
+msgstr ""
+
+#: theme-setup/medico-theme-init.php:80
+msgid "Sidebar"
+msgstr ""
+
+#: theme-setup/medico-theme-init.php:82
+msgid "Add widgets here."
+msgstr ""

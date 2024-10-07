@@ -1,0 +1,170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-10-05 21:47+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ../../../../../custom-fields\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#~ msgid "Show preview"
+#~ msgstr "Предварительный просмотр"
+
+#~ msgid "Hide preview"
+#~ msgstr "Скрыть предварительный просмотр"
+
+#~ msgid "Fields"
+#~ msgstr "Поля"
+
+#~ msgid "Field of type '%s' is not supported in Gutenberg."
+#~ msgstr "Поле типа '%s' не поддерживается в Gutenberg."
+
+#~ msgid "Select Date"
+#~ msgstr "Выбрать Дату"
+
+#~ msgid "Use File"
+#~ msgstr "Выбрать"
+
+#~ msgid "Select File"
+#~ msgstr "Выбрать файл"
+
+#~ msgid "Use Image"
+#~ msgstr "Выбрать"
+
+#~ msgid "Select Image"
+#~ msgstr "Выбрать Изображение"
+
+#~ msgid "Use Attachments"
+#~ msgstr "Выбрать"
+
+#~ msgid "Select Attachments"
+#~ msgstr "Выбрать Файлы"
+
+#~ msgid "No options."
+#~ msgstr "Нет опций."
+
+#~ msgid "Search..."
+#~ msgstr "Поиск..."
+
+#~ msgid "Maximum number of items reached (%s items)"
+#~ msgstr "Достигнуто максимальное число элементов (%s элементов)"
+
+#~ msgid "Showing %1$d of %2$d results"
+#~ msgstr "Показаны %1$d из %2$d результатов"
+
+#~ msgid "An error occurred while trying to fetch association options."
+#~ msgstr "Произошла ошибка при попытке получить параметры ассоциации."
+
+#~ msgid "This field is required."
+#~ msgstr "Обязательное поле."
+
+#~ msgid "Minimum number of items not reached (%s items)"
+#~ msgstr "Минимальное количество элементов не достигнуто (%s)"
+
+#~ msgid "Select a color"
+#~ msgstr "Выбрать цвет"
+
+#~ msgid "Duplicate"
+#~ msgstr "Дублировать"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Collapse"
+#~ msgstr "Свернуть"
+
+#~ msgid "Couldn't create the label of group - %s"
+#~ msgstr "Не удалось создать метку группы - %s"
+
+#~ msgid "Expand All"
+#~ msgstr "Развернуть все"
+
+#~ msgid "Collapse All"
+#~ msgstr "Свернуть все"
+
+#~ msgid "Minimum number of rows not reached (%1$d %2$s)"
+#~ msgstr "Минимальное количество строк не достигнуто (%1$d %2$s)"
+
+#~ msgid "Add %s"
+#~ msgstr "Добавить %s"
+
+#~ msgid "The address could not be found."
+#~ msgstr "Адрес не найден."
+
+#~ msgid "Geocode was not successful for the following reason: "
+#~ msgstr "Запрос геокодера завершился ошибкой: "
+
+#~ msgid "Error alert"
+#~ msgstr "Предупреждение об ошибке"
+
+#~ msgid "An error occurred while trying to fetch oembed preview."
+#~ msgstr ""
+#~ "Произошла ошибка при попытке получить предварительный просмотр oembed."
+
+#~ msgid "Not Found"
+#~ msgstr "Не найдено"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "Visual"
+#~ msgstr "Визуальный"
+
+#~ msgid "Please enter the name of the new sidebar:"
+#~ msgstr "Пожалуйста, введите название для сайдбара:"
+
+#~ msgid "An error occurred while trying to create the sidebar."
+#~ msgstr "Произошла ошибка при попытке создать боковую панель."
+
+#~ msgid "Please choose"
+#~ msgstr "Пожалуйста, выберите"
+
+#~ msgid "Select Time"
+#~ msgstr "Выбрать время"
+
+#~ msgid "An unknown field is used in condition - \"%s\""
+#~ msgstr "Неизвестное поле используется в условии - \"%s\""
+
+#~ msgid "%1$s type must be a string."
+#~ msgstr "%1$s тип должен быть строкой."
+
+#~ msgid "%1$s %2$s is already registered."
+#~ msgstr "%1$s %2$s уже зарегистрирован."
+
+#~ msgid "The \"component\" param must be a function."
+#~ msgstr "Параметр \"component\" должен быть функцией."
+
+#~ msgid "The provided context isn't a valid one. Must be one of - %s ."
+#~ msgstr "Этот контекст не является допустимым. Должно быть один из - %s ."
+
+#~ msgid "%s %s isn't registered."
+#~ msgstr "%s %s не зарегистрирован."
+
+#~ msgid "An error occured."
+#~ msgstr "Произошла ошибка."
+
+#~ msgid "An error occurred while trying to fetch files data."
+#~ msgstr "Произошла ошибка при попытке получить данные файлов."
+
+#~ msgid "Could not find DOM element for container \"%1$s\"."
+#~ msgstr "Не удалось найти элемент DOM для контейнера \"%1$s\"."
+
+#~ msgid "Unsupported container condition comparison operator used - \"%1$s\"."
+#~ msgstr ""
+#~ "Используется неподдерживаемый оператор сравнения условий контейнера - "
+#~ "\"%1$s\"."
+
+#~ msgid "Unsupported container condition - \"%1$s\"."
+#~ msgstr "Неподдерживаемое условие контейнера - \"%1$s\"."
+
+#~ msgid "Unsupported container condition relation used - \"%1$s\"."
+#~ msgstr ""
+#~ "Используется неподдерживаемое отношение условий контейнера - \"%1$s\"."
