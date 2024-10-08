@@ -35,3 +35,17 @@ function register_post_types(){
 	] );
 
 }
+function true_register_wp_sidebars() {
+	register_sidebar(
+		array(
+			'id' => 'true_side', // уникальный id
+			'name' => 'Боковая колонка', // название сайдбара
+			'description' => 'Перетащите сюда виджеты, чтобы добавить их в сайдбар.', // описание
+			'before_widget' => '<div id="%1$s" class="blog__sidebar--item %2$s">', // по умолчанию виджеты выводятся <li>-списком
+			'after_widget' => '</div>',
+			'before_title' => '<div class="widget-title">', // по умолчанию заголовки виджетов в <h2>
+			'after_title' => '</div>'
+		)
+	);
+}
+add_action( 'widgets_init', 'true_register_wp_sidebars' );

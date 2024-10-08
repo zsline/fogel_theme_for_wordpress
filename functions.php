@@ -85,6 +85,9 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/register.php';
 require get_template_directory() . '/inc/buttons/buttons.php';
+require get_template_directory() . '/inc/widgets/widget-subscribe.php';
+require get_template_directory() . '/inc/widgets/widget-sign.php';
+require get_template_directory() . '/inc/widgets/subscription-block.php';
 require get_template_directory() . '/inc/carbon-fields/carbon-fields-plugin.php';
 
 
@@ -92,6 +95,8 @@ require get_template_directory() . '/inc/custom-fields/theme-options.php';
 require get_template_directory() . '/inc/custom-fields/post-meta.php';
 
 add_action( 'carbon_fields_register_fields', 'fogel_set_attach_post_meta' );
+add_action( 'carbon_fields_register_fields', 'fogel_set_attach_theme_options' );
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+add_filter('show_admin_bar', '__return_false'); 

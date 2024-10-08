@@ -10,14 +10,21 @@ window.addEventListener('scroll', function() {
     fSub.style.transform = 'translateX(0)';
   }
 });
-
-fClose.addEventListener('click', () => {
-  fSub.style.transform = 'translateX(100%)';
-  setTimeout(closeSub, 500) ;
-});
-function closeSub() {
-  fSub.style.display = 'none'
+if(fSub){
+  window.addEventListener('scroll', function() {
+    if(pageYOffset > 100){
+      fSub.style.transform = 'translateX(0)';
+    }
+  });
+  fClose.addEventListener('click', () => {
+    fSub.style.transform = 'translateX(100%)';
+    setTimeout(closeSub, 500) ;
+  });
+  function closeSub() {
+    fSub.style.display = 'none'
+  }
 }
+
 
 
 // =============== FAQ ==================

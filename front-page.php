@@ -301,19 +301,7 @@ get_header();
         </div>
     </div>
 </div>
-<div class="subscription section"
-    style="background-color:<?php echo carbon_get_post_meta(get_the_ID(), 'subscription_background'); ?>; background-image: url(<?php echo carbon_get_post_meta(get_the_ID(), 'subscription_img'); ?>);">
-    <div class="container">
-        <h2><?php echo carbon_get_post_meta(get_the_ID(), 'subscription_title'); ?></h2>
-        <div class="subscription__wrapper">
-            <div class="quote__subtext">
-                <?php echo carbon_get_post_meta(get_the_ID(), 'subscription_text'); ?>
-            </div>
-            <p><?php echo carbon_get_post_meta(get_the_ID(), 'subscription_subtext'); ?></p>
-            <?php echo siteButtonGoldContact(carbon_get_post_meta(get_the_ID(), 'subscription_btn_link'), carbon_get_post_meta(get_the_ID(), 'subscription_btn_text')); ?>
-        </div>
-    </div>
-</div>
+<?php echo subscriptionBlock(); ?>
 <div class="faq section" style="background-color: <?php echo carbon_get_post_meta(get_the_ID(), 'faq_background'); ?>;">
     <div class="container">
         <h2><?php echo carbon_get_post_meta(get_the_ID(), 'faq_title'); ?></h2>

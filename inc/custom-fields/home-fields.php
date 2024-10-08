@@ -191,28 +191,6 @@ Container::make('post_meta', esc_html__('Page Options'))
                     ->set_width(80),
             ))
     ))
-    ->add_tab(esc_html__('Subscription block', 'fogel'), array(
-        Field::make('color', 'subscription_background', esc_html__('Background Color', 'fogel'))
-            ->set_default_value('#ffffff')
-            ->set_width(20),
-        Field::make('image', 'subscription_img', esc_html__('Background Image', 'fogel'))
-            ->set_value_type('url')
-            ->set_width(20),
-        Field::make('text', 'subscription_title', esc_html__('Title', 'fogel'))
-            ->set_width(60)
-            ->set_default_value('СТАНЬТЕ ЧАСТЬЮ КОМЬюНИТИ'),
-        Field::make('text', 'subscription_text', esc_html__('Text', 'fogel'))
-            ->set_width(50),
-        Field::make('text', 'subscription_subtext', esc_html__('Text', 'fogel'))
-            ->set_default_value('Подпишитесь на канал, обсуждайте с другими руководителями, знакомьтесь.')
-            ->set_width(50),
-        Field::make('text', 'subscription_btn_text', esc_html__('Button Text', 'fogel'))
-            ->set_width(50)
-            ->set_default_value('подписаться на канал'),
-        Field::make('text', 'subscription_btn_link', esc_html__('Button Link', 'fogel'))
-            ->set_width(50)
-            ->set_default_value('#'),
-    ))
     ->add_tab(esc_html__('FAQ block', 'fogel'), array(
         Field::make('color', 'faq_background', esc_html__('Background Color', 'fogel'))
             ->set_default_value('#EBEDEE')

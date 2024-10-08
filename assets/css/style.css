@@ -55,7 +55,6 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-  /* font-family: 'rawline', sans-serif; */
   font-size: clamp(0.88rem, calc(0.82rem + 0.24vw), 1rem);
   color: var(--dark-grey);
   overflow-x: hidden;
@@ -3029,4 +3028,7 @@ ul.list.dark li::before {
 
 * {
   /* outline:1px solid #000; */
+}
+.cdp-copy-alert-success{
+  visibility: hidden;
 }
