@@ -12,7 +12,6 @@
 
 ?>
 
-</main>
 <footer class="footer">
     <div class="container">
         <?php
@@ -54,13 +53,7 @@
                 </picture>
             </a>
             <nav class="nav">
-                <ul>
-                    <li><a href="methods.html">с чем работаю</a></li>
-                    <li><a href="services.html">услуги</a></li>
-                    <li><a href="result.html">результаты</a></li>
-                    <li><a href="index.html#reviews">отзывы</a></li>
-                    <li><a href="blog.html">блог</a></li>
-                </ul>
+                <?php wp_nav_menu() ?>
                 <div class="footer__social">
                     <div class="footer__social--title">
                         Я в социальных сетях:

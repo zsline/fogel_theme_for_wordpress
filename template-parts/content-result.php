@@ -1,6 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<div class="hero hero-resul-item section" style="background-color: var(--dark-grey); color: var(--white);">
+		<div class="hero hero-resul-item section" style="background-color: <?php echo carbon_get_theme_option('result_single_hero_background') ?>; color: var(--white);">
 			<div class="container">
 				<div class="hero-resul-item__wrapper">
 					<h3><?php echo carbon_get_post_meta(get_the_ID(), 'title_result') ?></h3>
@@ -11,7 +11,7 @@
 			</div>
 		</div>
 	</header><!-- .entry-header -->
-	<div class="blog section" style="background-color: <?php echo carbon_get_post_meta(get_the_ID(), 'page_background') ?>;">
+	<div class="blog section" style="background-color: <?php echo carbon_get_theme_option('result_background') ?>;">
 		<div class="container">
 			<div class="blog__wrapper">
 				<div class="blog__content blog-content">

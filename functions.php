@@ -88,9 +88,10 @@ require get_template_directory() . '/inc/buttons/buttons.php';
 require get_template_directory() . '/inc/widgets/widget-subscribe.php';
 require get_template_directory() . '/inc/widgets/widget-sign.php';
 require get_template_directory() . '/inc/widgets/subscription-block.php';
+require get_template_directory() . '/inc/widgets/results-block.php';
+require get_template_directory() . '/inc/widgets/quote-block.php';
+require get_template_directory() . '/inc/widgets/sign-up-block.php';
 require get_template_directory() . '/inc/carbon-fields/carbon-fields-plugin.php';
-
-
 require get_template_directory() . '/inc/custom-fields/theme-options.php';
 require get_template_directory() . '/inc/custom-fields/post-meta.php';
 

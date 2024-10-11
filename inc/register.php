@@ -29,7 +29,7 @@ function register_post_types(){
 		'hierarchical'        => false,
 		// [ 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'trackbacks', 'custom-fields', 'comments', 'revisions', 'page-attributes', 'post-formats' ]
 		'supports'            => [ 'title', 'editor','excerpt' ],
-		'has_archive'         => false,
+		'has_archive'         => true,
 		'rewrite'             => true,
 		'query_var'           => true,
 	] );

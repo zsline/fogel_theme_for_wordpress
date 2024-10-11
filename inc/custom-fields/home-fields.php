@@ -47,6 +47,9 @@ Container::make('post_meta', esc_html__('Page Options'))
         Field::make('image', 'reasons_img', esc_html__('Background Image', 'fogel'))
             ->set_value_type('url')
             ->set_width(30),
+        Field::make('image', 'reasons_img_mobile', esc_html__('Background Image for Mobile', 'fogel'))
+            ->set_value_type('url')
+            ->set_width(30),
         Field::make('text', 'reasons_title', esc_html__('Title', 'fogel'))
             ->set_width(50),
         Field::make('complex', 'reasons_rows', esc_html__('Rows List', 'fogel'))
@@ -97,6 +100,9 @@ Container::make('post_meta', esc_html__('Page Options'))
         Field::make('image', 'first_quote_img', esc_html__('Background Image', 'fogel'))
             ->set_value_type('url')
             ->set_width(20),
+        Field::make('image', 'first_quote_img_mobile', esc_html__('Background Image for Mobile', 'fogel'))
+            ->set_value_type('url')
+            ->set_width(20),
         Field::make('textarea', 'first_quote_text', esc_html__('First Text', 'fogel'))
             ->set_width(30),
         Field::make('textarea', 'first_quote_subtext', esc_html__('Second Text', 'fogel'))
@@ -124,7 +130,10 @@ Container::make('post_meta', esc_html__('Page Options'))
         Field::make('color', 'result_background', esc_html__('Background Color', 'fogel'))
             ->set_default_value('#DADADA')
             ->set_width(20),
-        Field::make('image', 'result_img', esc_html__('Image', 'fogel'))
+        Field::make('image', 'result_img', esc_html__('Background Image', 'fogel'))
+            ->set_value_type('url')
+            ->set_width(20),
+        Field::make('image', 'result_img_mobile', esc_html__('Background Image for Mobile', 'fogel'))
             ->set_value_type('url')
             ->set_width(20),
         Field::make('textarea', 'result_title', esc_html__('Title', 'fogel'))
@@ -159,16 +168,21 @@ Container::make('post_meta', esc_html__('Page Options'))
     ->add_tab(esc_html__('Second Quote block', 'fogel'), array(
         Field::make('color', 'second_quote_background', esc_html__('Background Color', 'fogel'))
             ->set_default_value('#112444')
-            ->set_width(50),
+            ->set_width(20),
         Field::make('image', 'second_quote_img', esc_html__('Background Image', 'fogel'))
             ->set_value_type('url')
-            ->set_width(50),
+            ->set_width(20),
+        Field::make('image', 'second_quote_img_mobile', esc_html__('Background Image for Mobile', 'fogel'))
+            ->set_value_type('url')
+            ->set_width(20),
         Field::make('textarea', 'second_quote_text_top', esc_html__('Top Text', 'fogel'))
-            ->set_width(30),
+            ->set_width(25),
         Field::make('textarea', 'second_quote_text_center', esc_html__('Center Text', 'fogel'))
-            ->set_width(30),
+            ->set_width(25),
         Field::make('textarea', 'second_quote_text_bottom', esc_html__('Bottom Text', 'fogel'))
-            ->set_width(30),
+            ->set_width(25),
+        Field::make('textarea', 'second_quote_text_bottom_mobile', esc_html__('Mobile Bottom Text', 'fogel'))
+            ->set_width(25),
     ))
     ->add_tab(esc_html__('Reviews block', 'fogel'), array(
         Field::make('color', 'reviews_background', esc_html__('Background Color', 'fogel'))
